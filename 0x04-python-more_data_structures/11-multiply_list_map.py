@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#Function returns a list with all values multiplied by a-
-#number 
+ 
 def mutiply_list_map(my_list=[], number=0):
     return (list(map(lambda x: x*number, my_list)))
